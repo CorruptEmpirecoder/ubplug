@@ -6,29 +6,29 @@ from Hellbot.core import ENV, db
 ALIVE_TEMPLATES = [
     (
         "•────────────────•\n"
-        "•       𝐇ᴇʟʟ𝐁ᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ        •\n"
+        "• 𝐁𝐢𝐥𝐥𝐢 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐈𝐬 𝐀𝐥𝐢𝐯𝐞       •\n"
         "╭────────────────•\n"
-        "╰➢ ᴏᴡɴᴇʀ » {owner}\n"
-        "╰➢ ᴘʏʀᴏɢʀᴀᴍ » {pyrogram}\n"
-        "╰➢ ʜᴇʟʟʙᴏᴛ » {hellbot}\n"
-        "╰➢ ᴘʏᴛʜᴏɴ » {python}\n"
-        "╰➢ ᴜᴘᴛɪᴍᴇ » {uptime}\n"
+        "╰➢ ʙɪʟʟɪ ᴏᴡɴᴇʀ » {owner}\n"
+        "╰➢ ʙɪʟʟɪ ᴘʏʀᴏɢʀᴀᴍ » {pyrogram}\n"
+        "╰➢ ʙɪʟʟɪ ᴜsᴇʀʙᴏᴛ » {hellbot}\n"
+        "╰➢ ʙɪʟʟɪ ᴘʏᴛʜᴏɴ » {python}\n"
+        "╰➢ ʙɪʟʟɪ ᴜᴘᴛɪᴍᴇ » {uptime}\n"
         "╰────────────────•\n"
-        "𝖡𝗒 © @HellBot_Networks\n"
+        "𝖡𝗒 © @BLOODAVI\n"
         "•────────────────•\n"
     ),
 ]
 
 PING_TEMPLATES = [
-    """**🍀 𝖯𝗂𝗇𝗀!**
+    """**🐈 Bɪʟʟɪ Pɪɴɢ!**
 
-    ⚘  **ѕρєє∂:** {speed} m/s
-    ⚘  **υρтιмє:** {uptime}
-    ⚘  **σωηєя:** {owner}""",
+    ⚘  **ʙɪʟʟɪ ѕρєє∂:** {speed} m/s
+    ⚘  **ʙɪʟʟɪ υρтιмє:** {uptime}
+    ⚘  **ʙɪʟʟɪ σωηєя:** {owner}""",
 ]
 
 HELP_MENU_TEMPLATES = [
-    """**🍀 𝖧𝖾𝗅𝗉 𝖬𝖾𝗇𝗎 𝖿𝗈𝗋:** {owner}
+    """**🐈 Bɪʟʟɪ 𝖧𝖾𝗅𝗉 𝖬𝖾𝗇𝗎 𝖿𝗈𝗋:** {owner}
 
 __📃 𝖫𝗈𝖺𝖽𝖾𝖽__ **{plugins} 𝗉𝗅𝗎𝗀𝗂𝗇𝗌** __𝗐𝗂𝗍𝗁 𝖺 𝗍𝗈𝗍𝖺𝗅 𝗈𝖿__ **{commands} 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌.**
 
@@ -47,7 +47,7 @@ ANIME_TEMPLATES = [
 {name}
 
 ╭────────────────•
-╰➢ **𝖲𝖼𝗈𝗋𝖾:** `{score}`
+╰➢ **Billi 𝖲𝖼𝗈𝗋𝖾:** `{score}`
 ╰➢ **𝖲𝗈𝗎𝗋𝖼𝖾:** `{source}`
 ╰➢ **𝖳𝗒𝗉𝖾:** `{mtype}`
 ╰➢ **𝖤𝗉𝗂𝗌𝗈𝖽𝖾𝗌:** `{episodes}`
@@ -199,20 +199,20 @@ STATISTICS_TEMPLATES = [
 🍀 {name}
 
 ╭──────── 𝖢𝗁𝖺𝗇𝗇𝖾𝗅𝗌 ────────•
-╰➢ **𝖳𝗈𝗍𝖺𝗅:** `{channels}`
-╰➢ **𝖠𝖽𝗆𝗂𝗇:** `{ch_admin}`
-╰➢ **𝖮𝗐𝗇𝖾𝗋:** `{ch_owner}`
+╰➢ **Billi 𝖳𝗈𝗍𝖺𝗅:** `{channels}`
+╰➢ **Billi 𝖠𝖽𝗆𝗂𝗇:** `{ch_admin}`
+╰➢ **Billi 𝖮𝗐𝗇𝖾𝗋:** `{ch_owner}`
 
 ╭──────── 𝖦𝗋𝗈𝗎𝗉𝗌 ────────•
-╰➢ **𝖳𝗈𝗍𝖺𝗅:** `{groups}`
-╰➢ **𝖠𝖽𝗆𝗂𝗇:** `{gc_admin}`
-╰➢ **𝖮𝗐𝗇𝖾𝗋:** `{gc_owner}`
+╰➢ **Billi 𝖳𝗈𝗍𝖺𝗅:** `{groups}`
+╰➢ **Billi 𝖠𝖽𝗆𝗂𝗇:** `{gc_admin}`
+╰➢ **Billi 𝖮𝗐𝗇𝖾𝗋:** `{gc_owner}`
 
 ╭──────── 𝖮𝗍𝗁𝖾𝗋𝗌 ────────•
-╰➢ **𝖯𝗋𝗂𝗏𝖺𝗍𝖾:** `{users}`
-╰➢ **𝖡𝗈𝗍𝗌:** `{bots}`
-╰➢ **𝖴𝗇𝗋𝖾𝖺𝖽 𝖬𝖾𝗌𝗌𝖺𝗀𝖾𝗌:** `{unread_msg}`
-╰➢ **𝖴𝗇𝗋𝖾𝖺𝖽 𝖬𝖾𝗇𝗍𝗂𝗈𝗇𝗌:** `{unread_mention}`
+╰➢ **Billi 𝖯𝗋𝗂𝗏𝖺𝗍𝖾:** `{users}`
+╰➢ **Billi 𝖡𝗈𝗍𝗌:** `{bots}`
+╰➢ **Billi 𝖴𝗇𝗋𝖾𝖺𝖽 𝖬𝖾𝗌𝗌𝖺𝗀𝖾𝗌:** `{unread_msg}`
+╰➢ **Billi 𝖴𝗇𝗋𝖾𝖺𝖽 𝖬𝖾𝗇𝗍𝗂𝗈𝗇𝗌:** `{unread_mention}`
 
 ⌛ **𝖳𝗂𝗆𝖾 𝖳𝖺𝗄𝖾𝗇:** `{time_taken}`
 """
@@ -221,10 +221,10 @@ STATISTICS_TEMPLATES = [
 GBAN_TEMPLATES = [
     """
 ╭──────── {gtype} ────────•
-╰➢ **𝖵𝗂𝖼𝗍𝗂𝗆:** {name}
-╰➢ **𝖲𝗎𝖼𝖼𝖾𝗌𝗌:** {success}
-╰➢ **𝖥𝖺𝗂𝗅𝖾𝖽:** {failed}
-╰➢ **𝖱𝖾𝖺𝗌𝗈𝗇:** {reason}
+╰➢ **Billi 𝖵𝗂𝖼𝗍𝗂𝗆:** {name}
+╰➢ **Billi Gban 𝖲𝗎𝖼𝖼𝖾𝗌𝗌:** {success}
+╰➢ **Billi Gban 𝖥𝖺𝗂𝗅𝖾𝖽:** {failed}
+╰➢ **Billi Gban 𝖱𝖾𝖺𝗌𝗈𝗇:** {reason}
 ╰────────────────•
 """
 ]
@@ -263,7 +263,7 @@ USER_INFO_TEMPLATES = [
 **➢ 𝖡𝗈𝗍:** `{isBot}`
 **➢ 𝖡𝗂𝗈:** `{bio}`
 
-**</> @HellBot_Networks**
+**</> @BLOODAVI**
 """
 ]
 
@@ -281,7 +281,7 @@ CHAT_INFO_TEMPLATES = [
 **➢ 𝖡𝗈𝗍𝗌:** `{botsCount}`
 **➢ 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:** `{description}`
 
-**</> @HellBot_Networks**
+**</> @BLOODAVI**
 """
 ]
 
