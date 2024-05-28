@@ -8,8 +8,8 @@ from .utility import TGraph
 def post_to_telegraph(
     title: str,
     content: str,
-    author: str = "[ 𝖧𝖾𝗅𝗅𝖡𝗈𝗍 ]",
-    url: str = "https://t.me/Its_HellBot",
+    author: str = "[ BilliBot ]",
+    url: str = "https://t.me/Tcn_bots",
 ) -> str:
     content = content.replace("\n", "<br>")
     try:
